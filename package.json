@@ -1,0 +1,39 @@
+{
+  "name": "prefixed-require",
+  "version": "1.0.0",
+  "description": "Require modules from a prefixed path.",
+  "keywords": [
+    "require"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/node-prefixed-require.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/node-prefixed-require/issues"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./index",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
